@@ -2,7 +2,7 @@ import axios from 'axios';
 import Utils from './utils';
  
 
-export const client = class client {
+export const client = class Client {
 
     constructor() {
 
