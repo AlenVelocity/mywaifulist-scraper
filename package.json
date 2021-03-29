@@ -1,0 +1,25 @@
+{
+  "name": "mywaifulist-scraper",
+  "version": "0.0.1",
+  "description": "mywaifulist scraper build with cheerio",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "tests/**/*"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "node tests",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  }
+}
